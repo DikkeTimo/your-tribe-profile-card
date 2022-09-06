@@ -13,11 +13,12 @@ body {
   justify-content: center;
   align-items: center;
   color: #46598d;
+  background-color: bisque;
 }
 
 article {
   width: 150vw;
-  max-width: 30em;
+  max-width: 25em;
   min-width: 20em;
   display: flex;
   flex-direction: column;
@@ -29,6 +30,7 @@ article {
   border-radius: 1rem;
   position: relative;
   transition: 0.25s;
+  border-spacing: 5px;
 }
 
 header {
@@ -40,8 +42,8 @@ header {
 }
 
 h1 {
-  margin: 6rem 0 5rem;
-  color: rgb(16, 13, 18);
+  margin: 3rem 0 5rem;
+  color: rgb(123, 63, 234);
 }
 
 button {
@@ -87,7 +89,7 @@ img {
   transition: 0.25s 0.15s;
 }
 
-dl {
+/* dl {
   width: 100%;
   background: rgb(239, 232, 232);
 
@@ -102,49 +104,57 @@ dl {
   margin-top: -3rem;
   margin-bottom: 0;
   text-align: center;
-}
+} */
 
-dt {
+/* dt {
   font-weight: bold;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   padding-top: 0.25rem;
   margin-top: 0.25rem;
-}
-dt:nth-of-type(1) {
+} */
+/* dt:nth-of-type(1) {
   grid-area: html-dt;
-}
-dt:nth-of-type(2) {
+} */
+/* dt:nth-of-type(2) {
   grid-area: css-dt;
-  transform: translateY(1rem);
-}
+  transform: translateY(1rem); */
+
+/* }
 dt:nth-of-type(3) {
   grid-area: js-dt;
-}
+} */
 
-dd {
+/* dd {
   margin: 0;
   padding-left: 0.3rem;
   transition: 0.25s 0.3s;
-}
-dd:nth-of-type(2) {
+} */
+/* dd:nth-of-type(2) {
   transform: translateY(1rem);
-}
+} */
 
-p {
+.box {
   margin: 0;
+  width: 325px;
+  color: rgb(231, 231, 231);
+  text-align: center;
+  border: solid;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 20px;
 }
 
-article > p {
+/* article > p {
   padding: 3rem 2rem;
   margin-top: 0;
   background: rgb(239, 232, 232);
   text-align: center;
   border-radius: 0 0 1rem 1rem;
   width: 100%;
-}
+} */
 
 /* expand content */
-body.expand {
+/* body.expand {
   font-size: 1.15em;
 }
 
@@ -170,3 +180,7 @@ body.expand dd {
 body.expand img {
   width: 15em;
 }
+
+dl {
+  align-items: center;
+} */
