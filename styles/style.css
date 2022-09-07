@@ -17,7 +17,7 @@ body {
 }
 
 article {
-  width: 150vw;
+  width: 200vw;
   max-width: 25em;
   min-width: 20em;
   display: flex;
@@ -30,7 +30,7 @@ article {
   border-radius: 1rem;
   position: relative;
   transition: 0.25s;
-  border-spacing: 5px;
+  margin: 25px 15px 25px 15px;
 }
 
 header {
@@ -39,6 +39,7 @@ header {
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 25px;
 }
 
 h1 {
@@ -46,7 +47,7 @@ h1 {
   color: rgb(123, 63, 234);
 }
 
-button {
+/* button {
   border: none;
   position: absolute;
   right: 1rem;
@@ -57,15 +58,15 @@ button {
   background: rgb(47, 19, 112);
   border-radius: 50%;
   padding: 0.25rem;
-  transition: 0.25s;
+  transition: 0.25s; */
 }
-button:focus {
+/* button:focus {
   outline: none;
-  background: #202592;
+  background: #202592; */
 }
-button:focus svg {
+/* button:focus svg {
   stroke: rgba(0, 239, 255, 1);
-}
+} */
 
 svg {
   stroke: #4e54c8;
@@ -74,10 +75,10 @@ svg {
   left: calc(1.25rem - 12px);
   transition-delay: 0.25s;
 }
-button svg:nth-of-type(2) {
+/* button svg:nth-of-type(2) {
   opacity: 0;
   transition-delay: 0ms;
-}
+} */
 
 img {
   width: 7em;
@@ -142,6 +143,8 @@ dt:nth-of-type(3) {
   border-width: 4px;
   border-style: solid;
   border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /* article > p {
@@ -184,3 +187,12 @@ body.expand img {
 dl {
   align-items: center;
 } */
+
+button {
+  border-radius: 5px;
+  color: rgb(5, 6, 6);
+  background-color: #f20202;
+  font-size: 11px;
+}
+
+../
