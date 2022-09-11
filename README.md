@@ -4,7 +4,7 @@ De opdracht was om een visitekaartje te maken.
 
 Doormiddel van de development lifecycle heb ik meerdere schetsen gemaakt. Dit is het resultaat.
 
-We hebben deze week veel schetsen gemaakt en geleerd hoe visuele je hierarchie kan toepassen.
+We hebben deze week veel schetsen gemaakt en geleerd hoe je visuele hierarchie toe kan passen.
 
 [IMG_1304](https://user-images.githubusercontent.com/62908209/189336438-7d2ba168-7b74-4d2b-9c3d-0a7db8026fbe.jpg)
 
