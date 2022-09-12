@@ -6,7 +6,7 @@ Doormiddel van de development lifecycle heb ik meerdere schetsen gemaakt. Dit is
 
 We hebben deze week veel schetsen gemaakt en geleerd hoe je visuele hierarchie toe kan passen.
 
-[IMG_1304](https://user-images.githubusercontent.com/62908209/189336438-7d2ba168-7b74-4d2b-9c3d-0a7db8026fbe.jpg)
+<img width="50%" src="https://user-images.githubusercontent.com/62908209/189336438-7d2ba168-7b74-4d2b-9c3d-0a7db8026fbe.jpg">
 
 
 
@@ -26,7 +26,7 @@ Het eind resultaat:
 
 Dit is het geworden na feedback van klasgenoten en nieuwe schetsen die ik heb gemaakt.
 
-[IMG_1305](https://user-images.githubusercontent.com/62908209/189344272-7d9468e1-d31d-4a18-8442-b6f564dcff71.jpg)
+<img width="50%" src="https://user-images.githubusercontent.com/62908209/189344272-7d9468e1-d31d-4a18-8442-b6f564dcff71.jpg">
 
 
 
