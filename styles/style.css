@@ -26,7 +26,6 @@ article {
   align-items: center;
   justify-content: flex-end;
   background: rgb(44, 29, 17);
-  /* background: linear-gradient(0deg, rgb(137, 150, 150) 40%, #d859c9 100%); */
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   position: relative;
@@ -86,13 +85,11 @@ section {
   align-items: center;
   justify-content: center;
   background: rgb(44, 29, 17);
-  /* background: linear-gradient(0deg, rgb(137, 150, 150) 40%, #d859c9 100%); */
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   position: relative;
   transition: 0.25s;
   padding: 2%;
-  /* margin: 25px 15px 25px 15px; */
 }
 
 h2 {
@@ -133,4 +130,3 @@ button:hover {
     width: 200px;
   }
 }
-gedf 
