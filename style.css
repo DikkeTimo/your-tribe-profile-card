@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  font-family: open sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #46598d;
+  background-color: bisque;
+}
+
+article {
+  width: 200vw;
+  max-width: 25em;
+  height: 90vh;
+  min-width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgb(44, 29, 17);
+  /* background: linear-gradient(0deg, rgb(137, 150, 150) 40%, #d859c9 100%); */
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  position: relative;
+  transition: 0.25s;
+  margin: 25px 15px 25px 15px;
+}
+
+#card2 {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 3rem 0 5rem;
+  color: rgb(233, 242, 196);
+  margin-bottom: 5vh;
+  font-family: monospace;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+  border-radius: 20%;
+  border: 2px solid;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 1rem;
+  transition: 0.25s 0.15s;
+  margin-bottom: 30vh;
+}
+
+button {
+  margin-bottom: 10vh;
+  font-size: 2vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 1vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(249, 249, 249);
+}
+
+section {
+  width: 200vw;
+  max-width: 25em;
+  height: 90vh;
+  min-width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(44, 29, 17);
+  /* background: linear-gradient(0deg, rgb(137, 150, 150) 40%, #d859c9 100%); */
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  position: relative;
+  transition: 0.25s;
+  padding: 2%;
+  /* margin: 25px 15px 25px 15px; */
+}
+
+h2 {
+  margin: 3rem 0 5rem;
+  color: rgb(233, 242, 196);
+  margin-bottom: 15vh;
+  font-family: monospace;
+}
+
+p {
+  font-size: 14px;
+  font-family: monospace;
+  max-width: 40vh;
+  text-align: center;
+  line-height: 2;
+  color: white;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  padding: 10% 20% 10% 20%;
+  border-style: inset;
+  word-spacing: 5px;
+  border-radius: 1rem;
+}
+
+button:hover {
+  color: rgb(31, 131, 208);
+}
+
+@media screen and (max-width: 612px) {
+  body {
+    width: 15em;
+  }
+
+  .card1 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: -100px;
+    width: 200px;
+  }
+}
