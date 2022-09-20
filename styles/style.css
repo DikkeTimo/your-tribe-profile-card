@@ -92,23 +92,23 @@ section {
   padding: 2%;
 }
 
-h2 {
+/* h2 {
   margin: 3rem 0 5rem;
   color: rgb(233, 242, 196);
   margin-bottom: 15vh;
   font-family: monospace;
-}
+} */
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   font-family: monospace;
-  max-width: 40vh;
+  max-width: 45vh;
   text-align: center;
   line-height: 2;
   color: white;
   margin-bottom: 1px;
-  margin-top: 10px;
-  padding: 10% 20% 10% 20%;
+  margin-top: 5px;
+  padding: 5% 20% 2% 20%;
   border-style: inset;
   word-spacing: 5px;
   border-radius: 1rem;
