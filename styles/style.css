@@ -119,8 +119,13 @@ button:hover {
 }
 
 @media screen and (max-width: 612px) {
+
   body {
-    width: 15em;
+    width: 17em;
+  }
+
+  article {
+    height: 1%;
   }
 
   .card1 {
@@ -129,4 +134,10 @@ button:hover {
     padding-left: -100px;
     width: 200px;
   }
+
+  img {
+    width: 100px;
+    height: 150px;
+  }
+
 }
